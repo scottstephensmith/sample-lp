@@ -8,16 +8,49 @@
 </head>
 <body>
     <nav>
-        <a href="/index.html">Sample Cursor Site</a>
-        <a href="/blog/index.html">Blog</a>
-        <a href="/about.html">About</a>
-        <a href="/faq.html">FAQ</a>
+        <a href="/" class="logo">
+            <img src="https://placehold.co/40x40/1e293b/ffffff?text=SC" alt="Sample Cursor Site Logo">
+            <span>Sample Cursor Site</span>
+        </a>
+        <div class="nav-links">
+            <a href="/index.html">Home</a>
+            <a href="/blog/index.html">Blog</a>
+            <a href="/about.html">About</a>
+            <a href="/faq.html">FAQ</a>
+            <a href="/contact.html">Contact</a>
+        </div>
     </nav>
-    <main>
+    <main class="content-page">
         {{content}}
     </main>
-    <footer>
-        <p>&copy; 2024 Your Name</p>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>A simple static site built with clean and efficient technologies. We focus on creating content that helps developers build better websites.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/blog/index.html">Blog</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/faq.html">FAQ</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <ul class="footer-links">
+                    <li><a href="https://github.com">GitHub</a></li>
+                    <li><a href="https://twitter.com">Twitter</a></li>
+                    <li><a href="https://linkedin.com">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sample Cursor Site. All rights reserved.</p>
+        </div>
     </footer>
     <script src="/js/main.js"></script>
 </body>
