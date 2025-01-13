@@ -1,4 +1,4 @@
-# Simple Static Site Generator
+# Sample Cursor Site
 
 A lightweight static site generator using HTML, CSS, JavaScript, and minimal Node.js libraries.
 
