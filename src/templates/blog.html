@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} | Sample Cursor Site</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <img src="https://placehold.co/40x40/1e293b/ffffff?text=SC" alt="Sample Cursor Site Logo">
+            <span>Sample Cursor Site</span>
+        </a>
+        <div class="nav-links">
+            <a href="/index.html">Home</a>
+            <a href="/blog/index.html">Blog</a>
+            <a href="/about.html">About</a>
+            <a href="/faq.html">FAQ</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </nav>
+    <main class="content-page blog-post">
+        <article>
+            <header class="post-header">
+                <h1>{{title}}</h1>
+                <div class="post-meta">
+                    <time datetime="{{date}}">{{date}}</time>
+                    {{#if author}}<span class="author">by {{author}}</span>{{/if}}
+                </div>
+            </header>
+            <div class="post-content">
+                {{content}}
+            </div>
+            <div class="newsletter-signup">
+                <form action="https://app.kit.com/forms/7564401/subscriptions" 
+                      class="seva-form formkit-form" 
+                      method="post" 
+                      data-sv-form="7564401" 
+                      data-uid="077bf277df" 
+                      data-format="inline" 
+                      data-version="5">
+                    <div data-style="clean">
+                        <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+                        <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields">
+                            <div class="formkit-field">
+                                <input class="formkit-input" 
+                                       name="email_address" 
+                                       aria-label="Email Address" 
+                                       placeholder="Enter your email address" 
+                                       required 
+                                       type="email">
+                            </div>
+                            <button data-element="submit" 
+                                    class="formkit-submit">
+                                <div class="formkit-spinner">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <span>Subscribe</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </article>
+        <div class="post-footer">
+            <div class="post-nav">
+                <a href="/blog/index.html" class="back-to-blog">← Back to Blog</a>
+            </div>
+            <div class="share-links">
+                <span>Share this post:</span>
+                <a href="#" class="share-button">Twitter</a>
+                <a href="#" class="share-button">LinkedIn</a>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>A simple static site built with clean and efficient technologies. We focus on creating content that helps developers build better websites.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/blog/index.html">Blog</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/faq.html">FAQ</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <ul class="footer-links">
+                    <li><a href="https://github.com">GitHub</a></li>
+                    <li><a href="https://twitter.com">Twitter</a></li>
+                    <li><a href="https://linkedin.com">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sample Cursor Site. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
